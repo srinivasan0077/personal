@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
 body{
     background-image: url("https://cdn2.hubspot.net/hubfs/202339/canvas/images/parallax/Website-Design-Background.png");
-    height: 700px; 
+    height: 650px; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -11,7 +17,8 @@ body{
 .card {
     padding-top: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 350px;
+    max-width: 400px;
+    min-width:200px;
     margin: auto;
     text-align: center;
   }
