@@ -4,11 +4,14 @@ body{
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 .card {
     padding-top: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 250px;
+    max-width: 500px;
     margin: auto;
     text-align: center;
   }
